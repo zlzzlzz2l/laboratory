@@ -1,0 +1,6 @@
+.venv
+.idea
+.env
+ssoAgent
+__pycache__
+sas_token.py

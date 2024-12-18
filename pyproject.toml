@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "poc-python"
+version = "0.1.0"
+description = ""
+authors = ["AHyun Kim <zlzzlzz2l@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.115.0"
+uvicorn = "^0.31.0"
+sse-starlette = "^2.1.3"
+redis = "^5.1.0"
+openai = "0.28"
+azure-storage-blob = "^12.24.0"
+azure-identity = "^1.19.0"
+jupyter = "^1.1.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
